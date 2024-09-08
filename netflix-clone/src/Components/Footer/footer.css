@@ -21,10 +21,18 @@
     /* flex-direction: column; */
     justify-content: space-between;
     height: 12vh;
+  padding-bottom: 80px;
     /* background-color: blue; */
+}
+.footer_data ul{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 12vh;  
 }
 .footer_data ul li{
     cursor: pointer;
+      list-style: none;
 }
 .Service_code{
     display: flex;

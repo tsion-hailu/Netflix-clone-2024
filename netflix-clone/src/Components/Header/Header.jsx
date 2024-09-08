@@ -11,9 +11,13 @@ const Header = () => {
         <div className="header_left">
           <ul>
             <li>
-              <img src="" alt="" />
+              <img
+                className="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj0jWPJ2dABPXDnURT5UrGTNzA5ONHfTO2qQ&s"
+                alt="Netlix logo"
+              />
             </li>
-            <li>Netflix</li>
+            {/* <li>Netflix</li> */}
             <li>Home</li>
             <li>TVshows</li>
             <li>Movies</li>
@@ -30,8 +34,12 @@ const Header = () => {
             <li>
               <NotificationsNoneIcon />
             </li>
-            <li><AccountBoxIcon/></li>
-            <li><ArrowDropDownIcon/></li>
+            <li>
+              <AccountBoxIcon />
+            </li>
+            <li>
+              <ArrowDropDownIcon />
+            </li>
           </ul>
         </div>
       </div>

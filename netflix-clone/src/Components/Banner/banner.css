@@ -1,12 +1,23 @@
 .banner{
-    margin-top: -10vh;
+    margin-top: -6vh;
     height: 80vh;
-   
-    margin-bottom: -80px;
+
+    margin-bottom: 60px;
     color: white;
     object-fit: contain;
-  
+     
+  position: relative;
 }
+.banner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 40vh;
+  z-index: 11;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.937254902));
+} 
 .banner_contents{
     margin-left: 30px;
     padding-top: 300px;
@@ -46,7 +57,17 @@ color: #000;
 background-color: #c6c6c6;
 transition: all0.2s;
 }
-.banner_fadeButton{
+/* .banner_fadeButton{
     height: 40vh;
     background-image: -o-linear-gradient(180deg,trasparent,rgb(37,37,37,0.91),#111);
-}
+} */
+/* .banner__container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 40vh;
+  z-index: 11;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.937254902));
+} */

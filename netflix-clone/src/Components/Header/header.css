@@ -4,9 +4,9 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(red, green, blue);
+  background-color: rgb(20,20,20);
   background-color: transparent;
-  height: 10vh;
+  height: 5vh;
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
@@ -35,4 +35,9 @@
   align-items: center;
   list-style: none;
   cursor: pointer;
+}
+.logo{
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
 }
